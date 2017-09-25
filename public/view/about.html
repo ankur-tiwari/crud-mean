@@ -1,0 +1,5 @@
+<ul ng-init="getUser();">
+	<li ng-repeat="key in user">{{key.name}} 
+		<button ng-click="deleteUser(key._id)" class="btn btn-primary">	Delete </button>
+	</li>
+</ul>
